@@ -1,2 +1,2 @@
 Title_one|Author_one|0
-Title added from through app|Hopefully it works|0
+Title added through app|Hopefully it works|1
