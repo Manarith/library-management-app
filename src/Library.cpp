@@ -2,46 +2,45 @@
 #include "BookFactory.h"
 #include <iostream>
 
-using namespace std;
 
-void Library::addBook(string title, string author) {
+void Library::addBook(std::string title, std::string author) {
     books.push_back(BookFactory::createBook(title, author));
-    cout << "Book added!\n";
+    std::cout << "Book added!\n";
 }
 
 void Library::listBooks() {
     for (auto &b : books) {
-        cout << b.title << " by " << b.author
-             << (b.isAvailable ? " [Available]" : " [Borrowed]") << endl;
+        std::cout << b.title << " by " << b.author
+                  << (b.isAvailable ? " [Available]" : " [Borrowed]") << std::endl;
     }
 }
 
-void Library::searchBook(string keyword) {
+void Library::searchBook(std::string keyword) {
     for (auto &b : books) {
-        if (b.title.find(keyword) != string::npos) {
-            cout << "Found: " << b.title << " by " << b.author << endl;
+        if (b.title.find(keyword) != std::string::npos) {
+            std::cout << "Found: " << b.title << " by " << b.author << std::endl;
         }
     }
 }
 
-void Library::borrowBook(string title) {
+void Library::borrowBook(std::string title) {
     for (auto &b : books) {
         if (b.title == title && b.isAvailable) {
             b.isAvailable = false;
-            cout << "Borrowed successfully!\n";
+            std::cout << "Borrowed successfully!\n";
             return;
         }
     }
-    cout << "Book not available.\n";
+    std::cout << "Book not available.\n";
 }
 
-void Library::returnBook(string title) {
+void Library::returnBook(std::string title) {
     for (auto &b : books) {
         if (b.title == title && !b.isAvailable) {
             b.isAvailable = true;
-            cout << "Returned successfully!\n";
+            std::cout << "Returned successfully!\n";
             return;
         }
     }
-    cout << "Book not found.\n";
+    std::cout << "Book not found.\n";
 }

@@ -2,15 +2,14 @@
 #define BOOK_H
 
 #include <string>
-using namespace std;
 
 class Book {
 public:
-    string title;
-    string author;
+    std::string title;
+    std::string author;
     bool isAvailable;
 
-    Book(string t, string a, bool available = true) {
+    Book(std::string t, std::string a, bool available = true) {
         title = t;
         author = a;
         isAvailable = available;
