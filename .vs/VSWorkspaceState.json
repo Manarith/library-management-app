@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\data",
     "\\src"
   ],
-  "SelectedNode": "\\src\\main.cpp",
+  "SelectedNode": "\\data\\books.txt",
   "PreviewInSolutionExplorer": false
 }

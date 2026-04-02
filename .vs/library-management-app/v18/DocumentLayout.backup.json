@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Rafa\u0142\\library-management-app\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1769B8F8-4F4E-ADA3-C125-0FDB3F1C4B61}|library-management-app.vcxproj|C:\\Users\\Rafa\u0142\\library-management-app\\src\\Library.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1769B8F8-4F4E-ADA3-C125-0FDB3F1C4B61}|library-management-app.vcxproj|solutionrelative:src\\Library.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1769B8F8-4F4E-ADA3-C125-0FDB3F1C4B61}|library-management-app.vcxproj|C:\\Users\\Rafa\u0142\\library-management-app\\src\\Library.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1769B8F8-4F4E-ADA3-C125-0FDB3F1C4B61}|library-management-app.vcxproj|solutionrelative:src\\Library.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1769B8F8-4F4E-ADA3-C125-0FDB3F1C4B61}|library-management-app.vcxproj|C:\\Users\\Rafa\u0142\\library-management-app\\src\\BookFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1769B8F8-4F4E-ADA3-C125-0FDB3F1C4B61}|library-management-app.vcxproj|solutionrelative:src\\BookFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1769B8F8-4F4E-ADA3-C125-0FDB3F1C4B61}|library-management-app.vcxproj|C:\\Users\\Rafa\u0142\\library-management-app\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1769B8F8-4F4E-ADA3-C125-0FDB3F1C4B61}|library-management-app.vcxproj|solutionrelative:src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -14,11 +26,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookFactory.cpp",
+              "DocumentMoniker": "C:\\Users\\Rafa\u0142\\library-management-app\\src\\BookFactory.cpp",
+              "RelativeDocumentMoniker": "src\\BookFactory.cpp",
+              "ToolTip": "C:\\Users\\Rafa\u0142\\library-management-app\\src\\BookFactory.cpp",
+              "RelativeToolTip": "src\\BookFactory.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-02T15:25:55.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Library.cpp",
+              "DocumentMoniker": "C:\\Users\\Rafa\u0142\\library-management-app\\src\\Library.cpp",
+              "RelativeDocumentMoniker": "src\\Library.cpp",
+              "ToolTip": "C:\\Users\\Rafa\u0142\\library-management-app\\src\\Library.cpp",
+              "RelativeToolTip": "src\\Library.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-02T15:16:30.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Library.h",
+              "DocumentMoniker": "C:\\Users\\Rafa\u0142\\library-management-app\\src\\Library.h",
+              "RelativeDocumentMoniker": "src\\Library.h",
+              "ToolTip": "C:\\Users\\Rafa\u0142\\library-management-app\\src\\Library.h",
+              "RelativeToolTip": "src\\Library.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-02T15:16:09.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\Rafa\u0142\\library-management-app\\src\\main.cpp",
               "RelativeDocumentMoniker": "src\\main.cpp",
