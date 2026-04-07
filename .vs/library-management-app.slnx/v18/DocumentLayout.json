@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Rafa\u0142\\library-management-app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rafa\u0142\\library-management-app\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rafa\u0142\\library-management-app\\src\\Library.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Library.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rafa\u0142\\library-management-app\\src\\BookFactory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\BookFactory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rafa\u0142\\library-management-app\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rafa\u0142\\library-management-app\\src\\Book.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Book.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rafa\u0142\\library-management-app\\src\\Library.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -22,43 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Library.cpp",
-              "DocumentMoniker": "C:\\Users\\Rafa\u0142\\library-management-app\\src\\Library.cpp",
-              "RelativeDocumentMoniker": "src\\Library.cpp",
-              "ToolTip": "C:\\Users\\Rafa\u0142\\library-management-app\\src\\Library.cpp",
-              "RelativeToolTip": "src\\Library.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-02T15:11:53.02Z"
+              "Title": "BookFactory.h",
+              "DocumentMoniker": "C:\\Users\\Rafa\u0142\\library-management-app\\src\\BookFactory.h",
+              "RelativeDocumentMoniker": "src\\BookFactory.h",
+              "ToolTip": "C:\\Users\\Rafa\u0142\\library-management-app\\src\\BookFactory.h",
+              "RelativeToolTip": "src\\BookFactory.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-07T22:39:53.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Book.h",
+              "DocumentMoniker": "C:\\Users\\Rafa\u0142\\library-management-app\\src\\Book.h",
+              "RelativeDocumentMoniker": "src\\Book.h",
+              "ToolTip": "C:\\Users\\Rafa\u0142\\library-management-app\\src\\Book.h",
+              "RelativeToolTip": "src\\Book.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-07T22:39:42.876Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Rafa\u0142\\library-management-app\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\Rafa\u0142\\library-management-app\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-07T22:36:46.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Library.h",
               "DocumentMoniker": "C:\\Users\\Rafa\u0142\\library-management-app\\src\\Library.h",
               "RelativeDocumentMoniker": "src\\Library.h",
               "ToolTip": "C:\\Users\\Rafa\u0142\\library-management-app\\src\\Library.h",
               "RelativeToolTip": "src\\Library.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-02T15:09:17.233Z"
+              "WhenOpened": "2026-04-07T22:33:02.506Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\Rafa\u0142\\library-management-app\\src\\main.cpp",
-              "RelativeDocumentMoniker": "src\\main.cpp",
-              "ToolTip": "C:\\Users\\Rafa\u0142\\library-management-app\\src\\main.cpp",
-              "RelativeToolTip": "src\\main.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAmAAAAAAAAAA==",
+              "Title": "Library.cpp",
+              "DocumentMoniker": "C:\\Users\\Rafa\u0142\\library-management-app\\src\\Library.cpp",
+              "RelativeDocumentMoniker": "src\\Library.cpp",
+              "ToolTip": "C:\\Users\\Rafa\u0142\\library-management-app\\src\\Library.cpp",
+              "RelativeToolTip": "src\\Library.cpp",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-02T14:49:40.396Z",
+              "WhenOpened": "2026-04-07T22:32:49.408Z",
               "EditorCaption": ""
             }
           ]

@@ -7,7 +7,7 @@ int main() {
     std::string title, author;
 
     while (true) {
-        std::cout << "\n1. Add Book\n2. List Books\n3. Search\n4. Borrow\n5. Return\n0. Exit\n";
+        std::cout << "\n1. Add Book\n2. List Books\n3. Search\n4. Borrow book\n5. Return book\n0. Exit\n";
         std::cin >> choice;
         std::cin.ignore();
 
