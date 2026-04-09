@@ -1,6 +1,12 @@
 # library-management-app
 A simple console-based Library Management System built in C++. It demonstrates programming concepts like Object-Oriented Programming (OOP), file handling, basic data management and design patterns.
 
+## Prerequisites
+
+- C++17 compatible compiler (g++, clang, MSVC)
+
+- CMake >= 3.10
+
 ### Features
 
 **Book Management**
@@ -27,13 +33,27 @@ A simple console-based Library Management System built in C++. It demonstrates p
 
 - Data persists between program runs
 
-**Compile:**
+**Build & Run (CMake)**
 
-g++ src/*.cpp -o library_app
+1. Open terminal in project root:
 
-**Run:**
+bash
+
+cd build
+
+cmake ..
+
+cmake --build . --config Debug
+
+2. Run the program:
+
+**Linux/macOS**
 
 ./library_app
+
+**Windows**
+
+Debug\library_app.exe
 
 ### Planned future Improvements
 
@@ -44,5 +64,3 @@ g++ src/*.cpp -o library_app
 - GUI using Qt
 
 - Database integration
-
-- CMake
