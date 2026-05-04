@@ -1,15 +1,15 @@
-#include "user.h"
+#include "User.h"
 
-User::User(std::string n) : name(n) {};
+User::User(std::string n) : user_name(n) {};
 
-void borrowedBook(const std::string& title) {
-	borrowedBooks.pushback(title);
+void User::borrowBook(const std::string& title) {
+	borrowed_books.push_back(title);
 }
 
-void returnBook(const std::string& title) {
-    for (auto it = borrowedBooks.begin(); it != borrowedBooks.end(); ++it) {
+void User::returnBook(const std::string& title) {
+    for (auto it = borrowed_books.begin(); it != borrowed_books.end(); ++it) {
         if (*it == title) {
-            borrowedBooks.erase(it);
+            borrowed_books.erase(it);
             return;
         }
     }

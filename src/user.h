@@ -6,8 +6,8 @@
 
 class User {
 public:
-	std::string name;
-	std::vector<std::string> borrowedBooks;
+	std::string user_name;
+	std::vector<std::string> borrowed_books;
 
 	User(std::string n);
 
