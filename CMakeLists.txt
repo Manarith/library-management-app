@@ -10,4 +10,5 @@ add_executable(library_app
     src/main.cpp
     src/Library.cpp
     src/BookFactory.cpp
+    src/User.cpp
 )
